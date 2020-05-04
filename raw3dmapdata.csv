@@ -1,25 +1,44 @@
 name,Aviation,SDG,Realisim,Sector
 UN Innovation Network,10,100,100,GEN
 CRIAQ,50,50,100,GEN
-LOON,100,30,100,STR
-Ambular 2.0,100,20,20,UAM
-ICAO Innovation Fair,100,70,100,GEN
-ZipLine,100,50,100,UAS
+LOON,60,30,100,Stratospheric
+Ambular 2.0,40,20,20,UAM
+ICAO Innovation Fair,100,70,100,Event
+ZipLine,55,50,100,UAS
 AI For Good Summit,20,100,100,GEN
-AI Code of Conduct,80,25,50,GEN
-Thales AI Challenge,100,35,100,GEN
-Assmebly WP AI App,80,10,80,APP
+AI Code of Conduct,20,25,50,GEN
+Thales AI Challenge,40,35,100,GEN
+Assmebly WP AI App,60,10,80,Application
 Tesla,10,10,100,GEN
-Stratobus,100,20,60,GEN
-Uber Elevate,100,30,50,GEN
-YOLO,15,50,60,TEC
-Digital Urban,25,70,65,GEN
+Stratobus,60,20,60,Stratospheric
+Uber Elevate,65,30,50,UAM
+YOLO,15,50,60,Technology
+Smart Cities,25,70,65,GEN
 EASA Innovation Hub,100,45,100,GEN
-AI Roadmap,100,45,15,GEN
-Fly AI Report,100,15,15,ANS
+AI Roadmap,100,45,15,Policy
+Fly AI Report,75,15,15,Policy
 Thales,80,55,80,GEN
-Lilium,100,10,50,UAM
-NLP,10,10,70,TEC
-ICAO AI Research,75,50,25,RND
-ICAO UAM Study,100,35,10,RND
-EUROCONTROL,100,10,100,ANS
+Lilium,65,10,50,UAM
+NLP,10,10,70,Technology
+ICAO AI Research,75,50,25,Research
+ICAO UAM Study,85,35,10,Research
+EUROCONTROL,90,10,100,ANS
+eHANG,65,28,68,UAM
+Airbus,85,75,90,GEN
+Boeing,80,75,90,GEN
+BlockAero,50,15,43,Technology
+Imaginactive,35,75,25,Concepts
+SkiLifter,25,10,10,Concepts
+Alkanos,65,10,10,Concepts
+Bitzer,10,0,10,Concepts
+Electroship,15,4,5,Concepts
+Aerostratos,15,20,10,Concepts
+Ceros,7,5,7,Concepts
+Feuxzy,5,15,10,Concepts
+Kugaaruk,10,5,10,Concepts
+Templare,5,20,10,Concepts
+BeamMeUp,3,5,85,Technology
+ICAO VR,50,10,85,Application
+FabLabs,15,90,95,GEN
+ICAO Innovation,77,77,77,GEN
+Innovation Policy,95,17,12,Policy
