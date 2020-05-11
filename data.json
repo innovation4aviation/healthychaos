@@ -2,12 +2,12 @@
   "nodes": [
     {
       "id": "1",
-      "user": "GEN",
+      "user": "Network",
       "description": "UN Innovation Network"
     },
     {
       "id": "2",
-      "user": "GEN",
+      "user": "Network",
       "description": "CRIAQ"
     },
     {
@@ -32,22 +32,22 @@
     },
     {
       "id": "7",
-      "user": "GEN",
+      "user": "Event",
       "description": "AI For Good Summit"
     },
     {
       "id": "8",
-      "user": "GEN",
+      "user": "AI",
       "description": "AI Code of Conduct"
     },
     {
       "id": "9",
-      "user": "GEN",
+      "user": "AI",
       "description": "Thales AI Challenge"
     },
     {
       "id": "10",
-      "user": "Application",
+      "user": "AI",
       "description": "Assmebly WP AI App"
     },
     {
@@ -77,17 +77,17 @@
     },
     {
       "id": "16",
-      "user": "GEN",
+      "user": "Network",
       "description": "EASA Innovation Hub"
     },
     {
       "id": "17",
-      "user": "Policy",
+      "user": "AI",
       "description": "AI Roadmap"
     },
     {
       "id": "18",
-      "user": "Policy",
+      "user": "AI",
       "description": "Fly AI Report"
     },
     {
@@ -102,17 +102,17 @@
     },
     {
       "id": "21",
-      "user": "Technology",
+      "user": "AI-TEC",
       "description": "NLP"
     },
     {
       "id": "22",
-      "user": "Research",
+      "user": "AI",
       "description": "ICAO AI Research"
     },
     {
       "id": "23",
-      "user": "Research",
+      "user": "UAM",
       "description": "ICAO UAM Study"
     },
     {
@@ -127,12 +127,12 @@
     },
     {
       "id": "26",
-      "user": "GEN",
+      "user": "Manufacturer",
       "description": "Airbus"
     },
     {
       "id": "27",
-      "user": "GEN",
+      "user": "Manufacturer",
       "description": "Boeing"
     },
     {
@@ -214,6 +214,71 @@
       "id": "43",
       "user": "Policy",
       "description": "Innovation Policy"
+    },
+    {
+      "id": "44",
+      "user": "AI-Security",
+      "description": "Syntech ONE 200"
+    },
+    {
+      "id": "45",
+      "user": "AI-OPS",
+      "description": "Skywise"
+    },
+    {
+      "id": "46",
+      "user": "AI-OPS",
+      "description": "Jeppesen Crew Rostering"
+    },
+    {
+      "id": "47",
+      "user": "AI-OPS",
+      "description": "Watson at Work \u2013 Aviation"
+    },
+    {
+      "id": "48",
+      "user": "AI-OPS",
+      "description": "Delta AI-based predictive maintenance"
+    },
+    {
+      "id": "49",
+      "user": "AI-FAL",
+      "description": "Delta  biometric-based self-service bag drop"
+    },
+    {
+      "id": "50",
+      "user": "AI-FAL",
+      "description": "United \u2013 Alexa app"
+    },
+    {
+      "id": "51",
+      "user": "AI-OPS",
+      "description": "Airbus AI Gym"
+    },
+    {
+      "id": "52",
+      "user": "AI-OPS",
+      "description": "Airbus AI TakeOff"
+    },
+    {
+      "id": "53",
+      "user": "AI-OPS",
+      "description": "AI Landing"
+    },
+    {
+      "id": "54",
+      "user": "AI-OPS",
+      "description": "Thales AI ATM"
+    },
+    {
+      "id": "55",
+      "user": "AI-OPS",
+      "description": "Thales AI Butler"
+    },
+    {
+      "id": "56",
+      "user": "Node",
+      "description": "AI Node"
     }
   ],
   "links": [
@@ -436,6 +501,54 @@
     {
       "source": "15",
       "target": "25"
+    },
+    {
+      "source": "56",
+      "target": "44"
+    },
+    {
+      "source": "56",
+      "target": "45"
+    },
+    {
+      "source": "56",
+      "target": "46"
+    },
+    {
+      "source": "56",
+      "target": "47"
+    },
+    {
+      "source": "56",
+      "target": "48"
+    },
+    {
+      "source": "56",
+      "target": "49"
+    },
+    {
+      "source": "56",
+      "target": "50"
+    },
+    {
+      "source": "56",
+      "target": "51"
+    },
+    {
+      "source": "56",
+      "target": "52"
+    },
+    {
+      "source": "56",
+      "target": "53"
+    },
+    {
+      "source": "56",
+      "target": "54"
+    },
+    {
+      "source": "56",
+      "target": "55"
     }
   ]
 }
