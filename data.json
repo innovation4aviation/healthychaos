@@ -2,218 +2,218 @@
   "nodes": [
     {
       "id": "1",
-      "user": "UN Innovation Network",
-      "description": "GEN"
+      "user": "GEN",
+      "description": "UN Innovation Network"
     },
     {
       "id": "2",
-      "user": "CRIAQ",
-      "description": "GEN"
+      "user": "GEN",
+      "description": "CRIAQ"
     },
     {
       "id": "3",
-      "user": "LOON",
-      "description": "Stratospheric"
+      "user": "Stratospheric",
+      "description": "LOON"
     },
     {
       "id": "4",
-      "user": "Ambular 2.0",
-      "description": "UAM"
+      "user": "UAM",
+      "description": "Ambular 2.0"
     },
     {
       "id": "5",
-      "user": "ICAO Innovation Fair",
-      "description": "Event"
+      "user": "Event",
+      "description": "ICAO Innovation Fair"
     },
     {
       "id": "6",
-      "user": "ZipLine",
-      "description": "UAS"
+      "user": "UAS",
+      "description": "ZipLine"
     },
     {
       "id": "7",
-      "user": "AI For Good Summit",
-      "description": "GEN"
+      "user": "GEN",
+      "description": "AI For Good Summit"
     },
     {
       "id": "8",
-      "user": "AI Code of Conduct",
-      "description": "GEN"
+      "user": "GEN",
+      "description": "AI Code of Conduct"
     },
     {
       "id": "9",
-      "user": "Thales AI Challenge",
-      "description": "GEN"
+      "user": "GEN",
+      "description": "Thales AI Challenge"
     },
     {
       "id": "10",
-      "user": "Assmebly WP AI App",
-      "description": "Application"
+      "user": "Application",
+      "description": "Assmebly WP AI App"
     },
     {
       "id": "11",
-      "user": "Tesla",
-      "description": "GEN"
+      "user": "GEN",
+      "description": "Tesla"
     },
     {
       "id": "12",
-      "user": "Stratobus",
-      "description": "Stratospheric"
+      "user": "Stratospheric",
+      "description": "Stratobus"
     },
     {
       "id": "13",
-      "user": "Uber Elevate",
-      "description": "UAM"
+      "user": "UAM",
+      "description": "Uber Elevate"
     },
     {
       "id": "14",
-      "user": "YOLO",
-      "description": "Technology"
+      "user": "Technology",
+      "description": "YOLO"
     },
     {
       "id": "15",
-      "user": "Smart Cities",
-      "description": "GEN"
+      "user": "GEN",
+      "description": "Smart Cities"
     },
     {
       "id": "16",
-      "user": "EASA Innovation Hub",
-      "description": "GEN"
+      "user": "GEN",
+      "description": "EASA Innovation Hub"
     },
     {
       "id": "17",
-      "user": "AI Roadmap",
-      "description": "Policy"
+      "user": "Policy",
+      "description": "AI Roadmap"
     },
     {
       "id": "18",
-      "user": "Fly AI Report",
-      "description": "Policy"
+      "user": "Policy",
+      "description": "Fly AI Report"
     },
     {
       "id": "19",
-      "user": "Thales",
-      "description": "GEN"
+      "user": "GEN",
+      "description": "Thales"
     },
     {
       "id": "20",
-      "user": "Lilium",
-      "description": "UAM"
+      "user": "UAM",
+      "description": "Lilium"
     },
     {
       "id": "21",
-      "user": "NLP",
-      "description": "Technology"
+      "user": "Technology",
+      "description": "NLP"
     },
     {
       "id": "22",
-      "user": "ICAO AI Research",
-      "description": "Research"
+      "user": "Research",
+      "description": "ICAO AI Research"
     },
     {
       "id": "23",
-      "user": "ICAO UAM Study",
-      "description": "Research"
+      "user": "Research",
+      "description": "ICAO UAM Study"
     },
     {
       "id": "24",
-      "user": "EUROCONTROL",
-      "description": "ANS"
+      "user": "ANS",
+      "description": "EUROCONTROL"
     },
     {
       "id": "25",
-      "user": "eHANG",
-      "description": "UAM"
+      "user": "UAM",
+      "description": "eHANG"
     },
     {
       "id": "26",
-      "user": "Airbus",
-      "description": "GEN"
+      "user": "GEN",
+      "description": "Airbus"
     },
     {
       "id": "27",
-      "user": "Boeing",
-      "description": "GEN"
+      "user": "GEN",
+      "description": "Boeing"
     },
     {
       "id": "28",
-      "user": "BlockAero",
-      "description": "Technology"
+      "user": "Technology",
+      "description": "BlockAero"
     },
     {
       "id": "29",
-      "user": "Imaginactive",
-      "description": "Concepts"
+      "user": "Concepts",
+      "description": "Imaginactive"
     },
     {
       "id": "30",
-      "user": "SkiLifter",
-      "description": "Concepts"
+      "user": "Concepts",
+      "description": "SkiLifter"
     },
     {
       "id": "31",
-      "user": "Alkanos",
-      "description": "Concepts"
+      "user": "Concepts",
+      "description": "Alkanos"
     },
     {
       "id": "32",
-      "user": "Bitzer",
-      "description": "Concepts"
+      "user": "Concepts",
+      "description": "Bitzer"
     },
     {
       "id": "33",
-      "user": "Electroship",
-      "description": "Concepts"
+      "user": "Concepts",
+      "description": "Electroship"
     },
     {
       "id": "34",
-      "user": "Aerostratos",
-      "description": "Concepts"
+      "user": "Concepts",
+      "description": "Aerostratos"
     },
     {
       "id": "35",
-      "user": "Ceros",
-      "description": "Concepts"
+      "user": "Concepts",
+      "description": "Ceros"
     },
     {
       "id": "36",
-      "user": "Feuxzy",
-      "description": "Concepts"
+      "user": "Concepts",
+      "description": "Feuxzy"
     },
     {
       "id": "37",
-      "user": "Kugaaruk",
-      "description": "Concepts"
+      "user": "Concepts",
+      "description": "Kugaaruk"
     },
     {
       "id": "38",
-      "user": "Templare",
-      "description": "Concepts"
+      "user": "Concepts",
+      "description": "Templare"
     },
     {
       "id": "39",
-      "user": "BeamMeUp",
-      "description": "Technology"
+      "user": "Technology",
+      "description": "BeamMeUp"
     },
     {
       "id": "40",
-      "user": "ICAO VR",
-      "description": "Application"
+      "user": "Application",
+      "description": "ICAO VR"
     },
     {
       "id": "41",
-      "user": "FabLabs",
-      "description": "GEN"
+      "user": "GEN",
+      "description": "FabLabs"
     },
     {
       "id": "42",
-      "user": "ICAO Innovation",
-      "description": "GEN"
+      "user": "GEN",
+      "description": "ICAO Innovation"
     },
     {
       "id": "43",
-      "user": "Innovation Policy",
-      "description": "Policy"
+      "user": "Policy",
+      "description": "Innovation Policy"
     }
   ],
   "links": [
