@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+      
+        <script src="https://unpkg.com/3d-force-graph"></script>
+
+        <style>
+
+            .top {
+                position: fixed;
+                top: 0px;
+                width: 100%;
+                height: 10%;
+            }
+
+            .bottom {
+                position: fixed; 
+                bottom: 0px; 
+                width: 100%; 
+                height: 90%;
+
+                /*  Added styles for demo */
+                background-color: black;
+                color: white;
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+
+
+        <div class="top">
+   
+            <center>
+                <h2>
+                    Welocme to the Healthy Chaos represetning Innovaiotn in Aviation.
+                </h2>
+                <h3>
+                    Thank you to https://github.com/vasturiano/3d-force-graph for the visual engine
+                </h3>
+            </center>
+
+        </div>
+
+        <div id="3d-graph" class="bottom"></div>
+
+          
+        <script>
+            const elem = document.getElementById('3d-graph');
+
+            const Graph = ForceGraph3D()(elem)
+              .jsonUrl('https://innovation4aviation.github.io/healthychaos/data.json')
+              .nodeAutoColorBy('user')
+              .nodeLabel(node => `${node.user}: ${node.description}`)
+              .onNodeHover(node => elem.style.cursor = node ? 'pointer' : null)
+              .onNodeClick(node => window.open(`https://bl.ocks.org/${node.user}/${node.id}`, '_blank'));
+        </script>     
+
+    </body>
+    
+</html> 
