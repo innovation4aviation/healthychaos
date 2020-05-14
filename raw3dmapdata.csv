@@ -1,44 +1,206 @@
-name,Aviation,SDG,Realisim,Sector
-UN Innovation Network,10,100,100,GEN
-CRIAQ,50,50,100,GEN
-LOON,60,30,100,Stratospheric
-Ambular 2.0,40,20,20,UAM
-ICAO Innovation Fair,100,70,100,Event
-ZipLine,55,50,100,UAS
-AI For Good Summit,20,100,100,GEN
-AI Code of Conduct,20,25,50,GEN
-Thales AI Challenge,40,35,100,GEN
-Assmebly WP AI App,60,10,80,Application
-Tesla,10,10,100,GEN
-Stratobus,60,20,60,Stratospheric
-Uber Elevate,65,30,50,UAM
-YOLO,15,50,60,Technology
-Smart Cities,25,70,65,GEN
-EASA Innovation Hub,100,45,100,GEN
-AI Roadmap,100,45,15,Policy
-Fly AI Report,75,15,15,Policy
-Thales,80,55,80,GEN
-Lilium,65,10,50,UAM
-NLP,10,10,70,Technology
-ICAO AI Research,75,50,25,Research
-ICAO UAM Study,85,35,10,Research
-EUROCONTROL,90,10,100,ANS
-eHANG,65,28,68,UAM
-Airbus,85,75,90,GEN
-Boeing,80,75,90,GEN
-BlockAero,50,15,43,Technology
-Imaginactive,35,75,25,Concepts
-SkiLifter,25,10,10,Concepts
-Alkanos,65,10,10,Concepts
-Bitzer,10,0,10,Concepts
-Electroship,15,4,5,Concepts
-Aerostratos,15,20,10,Concepts
-Ceros,7,5,7,Concepts
-Feuxzy,5,15,10,Concepts
-Kugaaruk,10,5,10,Concepts
-Templare,5,20,10,Concepts
-BeamMeUp,3,5,85,Technology
-ICAO VR,50,10,85,Application
-FabLabs,15,90,95,GEN
-ICAO Innovation,77,77,77,GEN
-Innovation Policy,95,17,12,Policy
+name,Aviation,SDG,Realisim,Sector,ID,Link,PictureLink
+UN Innovation Network,10,100,100,Network,1,dummy,dummy.jpg
+CRIAQ,50,50,100,Network,2,dummy,dummy.jpg
+LOON,60,30,100,Stratospheric,3,dummy,dummy.jpg
+Ambular 2.0,40,20,20,UAM,4,dummy,dummy.jpg
+ICAO Innovation Fair,100,70,100,Event,5,dummy,dummy.jpg
+ZipLine,55,50,100,UAS,6,dummy,dummy.jpg
+AI For Good Summit,20,100,100,Event,7,dummy,dummy.jpg
+AI Code of Conduct,20,25,50,AI,8,dummy,dummy.jpg
+Thales AI Challenge,40,35,100,AI,9,dummy,dummy.jpg
+Assmebly WP AI App,60,10,80,AI,10,dummy,dummy.jpg
+Tesla,10,10,100,GEN,11,dummy,dummy.jpg
+Stratobus,60,20,60,Stratospheric,12,dummy,dummy.jpg
+Uber Elevate,65,30,50,UAM,13,dummy,dummy.jpg
+YOLO,15,50,60,Technology,14,dummy,dummy.jpg
+Smart Cities,25,70,65,GEN,15,dummy,dummy.jpg
+EASA Innovation Hub,100,45,100,Network,16,dummy,dummy.jpg
+AI Roadmap,100,45,15,AI,17,dummy,dummy.jpg
+Fly AI Report,75,15,15,AI,18,dummy,dummy.jpg
+Thales,80,55,80,GEN,19,dummy,dummy.jpg
+Lilium,65,10,50,UAM,20,dummy,dummy.jpg
+NLP,10,10,70,AI-TEC,21,dummy,dummy.jpg
+ICAO AI Research,75,50,25,AI,22,dummy,dummy.jpg
+ICAO UAM Study,85,35,10,UAM,23,dummy,dummy.jpg
+EUROCONTROL,90,10,100,ANS,24,dummy,dummy.jpg
+eHANG,65,28,68,UAM,25,dummy,dummy.jpg
+Airbus,85,75,90,Manufacturer,26,dummy,dummy.jpg
+Boeing,80,75,90,Manufacturer,27,dummy,dummy.jpg
+BlockAero,50,15,43,Technology,28,dummy,dummy.jpg
+Imaginactive,35,75,25,Concepts,29,dummy,dummy.jpg
+SkiLifter,25,10,10,Concepts,30,dummy,dummy.jpg
+Alkanos,65,10,10,Concepts,31,dummy,dummy.jpg
+Bitzer,10,0,10,Concepts,32,dummy,dummy.jpg
+Electroship,15,4,5,Concepts,33,dummy,dummy.jpg
+Aerostratos,15,20,10,Concepts,34,dummy,dummy.jpg
+Ceros,7,5,7,Concepts,35,dummy,dummy.jpg
+Feuxzy,5,15,10,Concepts,36,dummy,dummy.jpg
+Kugaaruk,10,5,10,Concepts,37,dummy,dummy.jpg
+Templare,5,20,10,Concepts,38,dummy,dummy.jpg
+BeamMeUp,3,5,85,Technology,39,dummy,dummy.jpg
+ICAO VR,50,10,85,Application,40,dummy,dummy.jpg
+FabLabs,15,90,95,GEN,41,dummy,dummy.jpg
+ICAO Innovation,77,77,77,GEN,42,dummy,dummy.jpg
+Innovation Policy,95,17,12,Policy,43,dummy,dummy.jpg
+Syntech ONE 200,,,,AI-Security,44,https://www.synapsetechnology.com/,dummy.jpg
+Skywise,,,,AI-OPS,45,https://www.airbus.com/aircraft/support-services/skywise.html,dummy.jpg
+Jeppesen Crew Rostering,,,,AI-OPS,46,https://ww2.jeppesen.com/airline-crew-optimization-solutions/crew-rostering/,dummy.jpg
+Watson at Work – Aviation,,,,AI-OPS,47,https://www.ispot.tv/ad/wIpB/ibm-watson-watson-at-work-aviation,dummy.jpg
+Delta AI-based predictive maintenance,,,,AI-OPS,48,https://www.forbes.com/sites/kevinmichaels/2018/09/25/the-delta-way-how-it-took-on-conventional-wisdom-and-slashed-maintenance-cancellations/#2f400a226480,dummy.jpg
+Delta  biometric-based self-service bag drop,,,,AI-FAL,49,https://news.delta.com/delta-plans-biometric-based-self-service-bag-drop,dummy.jpg
+United – Alexa app,,,,AI-FAL,50,https://hub.united.com/united-smart-device-check-in-2473795392.html,dummy.jpg
+Airbus AI Gym,,,,AI-OPS,51,https://aigym.airbus.com/,dummy.jpg
+Airbus AI TakeOff,,,,AI-OPS,52,https://www.airbus.com/newsroom/press-releases/en/2020/01/airbus-demonstrates-first-fully-automatic-visionbased-takeoff.html,dummy.jpg
+AI Landing,,,,AI-OPS,53,https://techcrunch.com/2019/07/05/watch-a-plane-land-itself-truly-autonomously-for-the-first-time/,dummy.jpg
+Thales AI ATM,,,,AI-OPS,54,https://www.thalesgroup.com/en/group/magazine/improved-air-traffic-management-taking-ai,dummy.jpg
+Thales AI Butler,,,,AI-OPS,55,https://www.thalesgroup.com/en/worldwide-aerospace/thales-inflyt-experience/magazine/whos-robot-butler-you-air,dummy.jpg
+AI Node,,,,Node,56,dummy,dummy.jpg
+DJI,,,,UAS,57,http://www.dji.com/,dummy.jpg
+Parrot,,,,UAS,58,http://www.parrot.com/usa/,dummy.jpg
+Yuneec,,,,UAS,59,http://yuneec.com/,dummy.jpg
+Kespry,,,,UAS,60,http://www.kespry.com/,dummy.jpg
+Autel,,,,UAS,61,https://www.autelrobotics.com/,dummy.jpg
+Skydio,,,,UAS,62,https://www.linkedin.com/company/3959849,dummy.jpg
+Insitu,,,,UAS,63,https://insitu.com/,dummy.jpg
+Delair,,,,UAS,64,https://delair.aero/,dummy.jpg
+EHANG-drone,,,,UAS,65,http://www.ehang.com/,dummy.jpg
+senseFly,,,,UAS,66,https://www.sensefly.com/home.html,dummy.jpg
+Aerialtronics,,,,UAS,67,https://www.aerialtronics.com/,dummy.jpg
+Freefly,,,,UAS,68,http://freeflysystems.com/,dummy.jpg
+Flyability,,,,UAS,69,http://www.flyability.com/,dummy.jpg
+Draganfly,,,,UAS,70,http://www.draganfly.com/,dummy.jpg
+Action Drone,,,,UAS,71,http://www.actiondroneusa.com/,dummy.jpg
+GoPro,,,,UAS,72,https://gopro.com/en/us/,dummy.jpg
+Intel,,,,UAS,73,http://www.intel.com/content/www/us/en/technology-innovation/aerial-technology-overview.html,dummy.jpg
+Ambarella,,,,UAS,74,https://www.ambarella.com/,dummy.jpg
+FLIR,,,,UAS,75,http://www.flir.com/home/,dummy.jpg
+Workswell,,,,UAS,76,https://www.workswell-thermal-camera.com/,dummy.jpg
+UDI,,,,UAS,77,http://www.udirc.com/,dummy.jpg
+Hubsan,,,,UAS,78,http://www.hubsan.com/,dummy.jpg
+Cheerson,,,,UAS,79,https://www.amazon.com/stores/node/9548977011?tag=uavcoach-20,dummy.jpg
+Syma,,,,UAS,80,http://www.symatoys.com/,dummy.jpg
+Sky Viper,,,,UAS,81,http://sky-viper.com/,dummy.jpg
+Blade,,,,UAS,82,http://www.bladehelis.com/Drones/,dummy.jpg
+AguaDrone,,,,UAS,83,http://www.aguadrone.com/,dummy.jpg
+Embention,,,,UAS,84,https://www.embention.com/,dummy.jpg
+Force1,,,,UAS,85,https://force1rc.com/,dummy.jpg
+Gryphon Dynamics,,,,UAS,86,http://gryphondynamics.co.kr/,dummy.jpg
+Gryphon Sensor,,,,UAS,87,http://gryphonsensors.com/,dummy.jpg
+Fat Shartk,,,,UAS,88,https://www.fatshark.com/,dummy.jpg
+BFD System,,,,UAS,89,https://www.bfdsystems.com/,dummy.jpg
+Atlas Dynamics,,,,UAS,90,https://www.atlasdynamics.eu/,dummy.jpg
+SicDrone,,,,UAS,91,http://sicdrone.com/,dummy.jpg
+TuffWing,,,,UAS,92,http://tuffwing.com/,dummy.jpg
+Airspace,,,,UAS,93,http://airspace.co/,dummy.jpg
+SkySpecs,,,,UAS,94,http://www.skyspecs.com/,dummy.jpg
+Dedrone,,,,UAS,95,http://www.dedrone.com/en/,dummy.jpg
+Search Systems,,,,UAS,96,http://www.searchsystems.eu/sparrowhawk.html,dummy.jpg
+Skyfish,,,,UAS,97,http://www.skyfish.ai/,dummy.jpg
+Wingtra,,,,UAS,98,https://wingtra.com/,dummy.jpg
+Azur Drones,,,,UAS,99,https://www.azurdrones.com/,dummy.jpg
+Planck Aerosystems,,,,UAS,100,https://www.planckaero.com/,dummy.jpg
+Impossible Aerospace,,,,UAS,101,https://impossible.aero/,dummy.jpg
+Parazero,,,,UAS,102,https://parazero.com/,dummy.jpg
+UA Node,,,,Node,103,dummy,dummy.jpg
+ICAO UA,,,,GEN,104,dummy,dummy.jpg
+ICAO,,,,ICAO,105,dummy,dummy.jpg
+Wing,,,,UAS,106,wing.com,maxresdefault6.jpg
+H-aero one,,,,UAS,107,http://h-aero.com/en/home/,h-aero.jpg
+Agras MJ1,,,,UAS,108,https://www.dji.com/ca/mg-1,maxresdefault.jpg
+Blackfly V3,,,,UAM,109,https://www.opener.aero/,blackflyopener.jpg
+Hoverbike S3,,,,UAM,110,https://www.hoversurf.com,hoversurf-hoverbike-s3-2019-4.jpg
+Volocopter 2X,,,,UAM,111,https://www.volocopter.com,VoloCity_takes_off_into_night.jpg
+Cora,,,,UAM,112,https://cora.aero/,Kitty_Hawk_Cora.1910x1000.jpg
+Transition,,,,UAM,113,https://terrafugia.com/transition/,maxresdefault5.jpg
+Aeromobil 4.0,,,,UAM,114,https://www.aeromobil.com/,The-Aeromobil-a-flying-supercar-is-on-d.jpg
+Palv-V Liberty,,,,UAM,115,https://www.pal-v.com,palv.jpg
+Lilium Jet,,,,UAM,116,https://lilium.com/,Lilium_FO006.jpg
+Ehang 216,,,,UAM,117,http://www.ehang.com,EHANG216.jpg
+Loon,,,,Stratospheric,118,https://loon.co/,LOON3.jpg
+Makani,,,,UAM,119,https://makanipower.com/,hero.jpg
+Zipline drone,,,,UAS,120,https://flyzipline.com/,zipline.jpg
+The Skydio 2,,,,UAS,121,https://www.dronedeploy.com/partners/skydio,maxresdefault2.jpg
+A350 ,,,,Traditional,122,https://en.wikipedia.org/wiki/Airbus_A350_XWB,aerospace-airbus-a350-eadsy.jpg
+B787-8 Dreamliner ,,,,Traditional,123,https://www.boeing.com/commercial/787/,787-9-specs-bg.jpg
+Global 7500 ,,,,Traditional,124,https://businessaircraft.bombardier.com/en/aircraft/global-7500,Global-7500-Bombardier-belly.jpg
+Dassault Falcon 8x ,,,,Traditional,125,https://www.dassaultfalcon.com,"Dassault_Falcon_8X,_Paris.jpg"
+Phenom 300E ,,,,Traditional,126,https://executive.embraer.com,phenom300.jpg
+Opensky M-02,,,,UAM,127,http://www.ac-olympos.com,opensky_top.jpg
+Mark-1,,,,UAM,128,http://omnihoverboards.com/,OMNI.jpg
+BIT,,,,UAM,129,https://www.hirobo.co.jp,BIT.jpg
+LMV 496 - The Flying Motorbike,,,,UAM,130,https://www.lazareth.fr/project/lmv496/,Lazareth-La-Moto-Volante-Hoverbike-1.jpg
+Flyboard Air EXP,,,,UAM,131,https://zapata.com,zapata_flyboard.jpg
+JB-11,,,,UAM,132,https://jetpackaviation.com/,IMG_0659.jpg
+Jetwing,,,,UAM,133,http://www.jetman.com/loft/,jetman.jpg
+Malloy Hoverbike,,,,UAM,134,https://www.hover-bike.com/,MALLOY.jpg
+Hexa,,,,UAM,135,https://www.liftaircraft.com/aircraft,HEXA1.jpg
+Flyer,,,,UAM,136,http://www.flyer.aero,kitty-hawk-flyer.jpg
+PAV,,,,UBER,137,https://www.aurora.aero,aurora.jpg
+Vahana,,,,UAM,138,https://vahana.aero/,VAHANA.jpg
+Odysseus,,,,Stratospheric,139,https://www.aurora.aero,haps-odysseus-3.jpg
+Stratobus,,,,Stratospheric,140,www.thalesaleniaspace.com ,stratobus-2019-thales2.jpg
+Trifan 600,,,,Traditional,141, http://www.xtiaircraft.com/trifan-600/,maxresdefaulttrifan.jpg
+Airlander 10,,,,UAM,142,https://www.hybridairvehicles.com,AIRLANDER 2.jpeg
+Aerones drone,,,,UAS,143,https://www.aerones.com/,aerones.jpg
+Alice,,,,UAM,144,https://www.eviation.co/,alice1.jpg
+chAIR,,,,UAM,145,https://evtol.news/aircraft/chair-multicopter/,dummy.jpg
+CityAirbus,,,,UAM,146,https://www.airbus.com/innovation/urban-air-mobility/vehicle-demonstrators/cityairbus.html,cityairbus3.jpg
+VoloDrone,,,,UAS,147,https://www.volocopter.com/en/volodrone/,dims.jpg
+Parcelcopter 4.0,,,,UAS,148,https://wingcopter.com/,wingcopter2.jpg
+Seraph,,,,UAM,149,http://www.vertical-aerospace.com/,Vertical-Aerospace-Seraph-1.jpg
+Droneseed,,,,UAS,150,https://www.droneseed.com/,DS.jpg
+The Y6S ,,,,UAM,151,https://autonomousflight.com/,dummy.jpg
+The Skygauge ,,,,UAS,152,https://skygauge.co/,k6WY_Lfg.jpeg.jpg
+S4,,,,UBER,153,https://www.jobyaviation.com/,Joby_aircraft.0.jpg
+Jumper,,,,Traditional,154,https://passerineaircraft.com/,jumper-showcase.jpg
+JetQuad,,,,UAM,155,https://fusionflight.com/jetquad/,fusion.jpg
+Westpac,,,,UAM,156,https://thelittleripper.com.au/,WestpacLittleRipperSLSQ770-1243x830.jpg
+X5 ,,,,UAS,157,https://www.vayu.us/product/,Vayus_Drones_Deliver.jpg
+Electric Air Taxi,,,,UAM,158,https://www.tecnalia.com/en/industry-and-transport/press-releases/tecnalia-develops-the-first-air-taxi-for-pilot-less-city-transport.htm,maxresdefaulttech.jpg
+Zephyr 7,,,,UAM,159,https://www.airbus.com/defence/uav/zephyr.html,ZephyrLaunchPic.jpg
+Maveric,,,,Traditional,160,https://www.airbus.com/newsroom/press-releases/en/2020/02/airbus-reveals-its-blended-wing-aircraft-demonstrator.html,MAVERIC.jpg
+E-Fan X,,,,UAM,161,https://www.airbus.com/innovation/future-technology/electric-flight/e-fan-x.html,E-Fan-X-teaser.jpg
+BEHA M1H ,,,,UAM,162,http://www.faradair.com,Capture.jpg
+Bell Nexus,,,,UBER,163,https://www.bellflight.com,bell-nexus.jpg
+Autonomous pod transport ,,,,UAS,164,https://www.bellflight.com/products/bell-apt,APTBELL.jpg
+BELL FCX-001 ,,,,UAM,165,https://www.bellflight.com/products/bell-fcx-001,FCX.jpg
+The Red Hummingbird Hoverbike ,,,,UAM,166,http://flytaerospace.com/red-hummingbird,Red+Hummingbird+production+5.jpg
+Mobi-one ,,,,UAM,167,https://www.iflyasx.com,0.jpg
+SkyDrive ,,,,UAM,168,http://www.cartivator.com,CARTIVATOR.jpg
+VY400 ,,,,UAM,169,https://transcend.aero/aircraft,transcend-vy-400.jpg
+Aero-x,,,,UAM,170,https://aerofex.com ,aero-x-hoverbike.jpg
+Dronecoria,,,,UAM,171,https://dronecoria.org/en,DRONECORIA.jpg
+Atlas,,,,UAM,172,https://www.watfly.ca/,ATLAS.jpg
+Ruas-160,,,,UAM,173,https://www.lanacion.com.ar/tecnologia/ruas-160-asi-es-helicoptero-autonomo-disenado-argentina-nid2359324,NE5IJR33CNBE3CXZF5TMNE276Y.jpg
+Starling Jet,,,,Traditional,174,http://www.samadaerospace.com/starling-jet,10-Samad-Starling.jpg
+Pop.Up Next,,,,UAM,175,https://www.italdesign.it/project/pop-up-next/,Pop.Up_Next_5.jpg
+Aero,,,,UAM,176,https://news.goodyear.eu/the-goodyear-aero--a-concept-tire-for-autonomous-flying-cars/,dummy.jpg
+AS2 Supersonic Business Jet ,,,,Stratospheric,177,https://www.aerionsupersonic.com,dummy.jpg
+The flying car,,,,UAM,178,https://www.bartini.aero,dummy.jpg
+CityHawk ,,,,UAM,179,http://www.urbanaero.com,dummy.jpg
+DR-7,,,,UAM,180,http://www.deloreanaerospace.com/,dummy.jpg
+Drone Taxi R-1 ,,,,UAM,181,https://www.hoversurf.com/formula ,dummy.jpg
+Onyx 2 ,,,,UAM,182,https://www.aeronyx.ca/,dummy.jpg
+Prandltplane ,,,,UAM,183,http://parsifalproject.eu,dummy.jpg
+S-512,,,,UAM,184,http://www.spikeaerospace.com,dummy.jpg
+Uber Elevate,,,,UBER,185,https://www.uber.com/info/elevate,UberElevate.jpeg
+ZA10,,,,UAM,186,https://zunum.aero,dummy.jpg
+Overture,,,,UAM,187,https://boomsupersonic.com ,dummy.jpg
+X01,,,,UAM,188,https://www.eva.xyz/x01 ,dummy.jpg
+MK4,,,,UAM,189,https://airspeeder.com/about,dummy.jpg
+O-boot Cargo,,,,UAM,190,https://www.o-boot.com/en/cargo/,dummy.jpg
+VTOL,,,,UAM,191,https://www.theverge.com/2019/10/11/20909771/porsche-boeing-partnership-flying-cars-rich-people,dummy.jpg
+Voloport,,,,UAM,192,https://www.volocopter.com/en/voloport/,dummy.jpg
+S-A1 Air Taxi ,,,,UAM,193,https://www.cnet.com/roadshow/news/hyundai-uber-elevate-urban-air-taxi-ces-2020/,dummy.jpg
+L400 UltraFAVORITE ,,,,UAM,194,http://leoaero.com/l400.html,dummy.jpg
+Scylax E10,,,,UAM,195,https://www.scylax.eu/products/,dummy.jpg
+Rotorcraft Terminal,,,,UAM,196,https://www.leonardocompany.com/en/press-release-detail/-/detail/17-11-19-leonardo-e-falcon-aviation-services-lanciano-un-innovativo-concetto-di-mobilita-urbana-che-unisce-eliporto-aree-commerciali-e-lounge,KT_343f9404-cimage_story.jpg
+Two Seater Drone,,,,UAM,197,https://www.designboom.com/technology/jet-capsule-identified-flying-object-03-23-2017/,dummy.jpg
+Autonomous Aerial Vehicle (AAV) e-port ,,,,UAM,198,https://www.ehang.com/news/638.html,dummy.jpg
+TF-2,,,,UAM,199,https://terrafugia.com/tf-2/ ,dummy.jpg
+UAM Node,,,,UAM,200,dummy,dummy.jpg
+Harbour Air ePlane,,,,UAM,201,https://www.harbourair.com/harbour-air-and-magnix-announce-successful-flight-of-worlds-first-commercial-electric-airplane/,ELiBYTaXkAExMHG.jpg
+Hawk Aerovironment,,,,Stratospheric,202,https://www.avinc.com/about/haps,Hawk30.jpg
+HeathDrone,,,,UAM,203,https://www.sdu.dk/en/om_sdu/fakulteterne/teknik/nyt_fra_det_tekniske_fakultet/healthdrone,healthdrone.jpg
+Straospheric Node,,,,Node,204,dummy,dummy.jpg
+Traditional Node,,,,Node,205,dummy,dummy.jpg

@@ -1,56 +1,231 @@
-from,to
-ICAO Innovation Fair,CRIAQ
-ICAO Innovation Fair,LOON
-ICAO Innovation Fair,ZipLine
-ICAO Innovation Fair,Assmebly WP AI App
-ICAO Innovation Fair,Stratobus
-ICAO Innovation Fair,Uber Elevate
-Thales,Stratobus
-Thales,Thales AI Challenge
-ICAO Innovation Fair,Lilium
-ICAO AI Research,AI For Good Summit
-ICAO AI Research,AI Code of Conduct
-ICAO AI Research,Assmebly WP AI App
-ICAO AI Research,Thales AI Challenge
-ICAO AI Research,EASA Innovation Hub
-ICAO AI Research,EUROCONTROL
-ICAO AI Research,NLP
-ICAO AI Research,YOLO
-ICAO AI Research,Smart Cities
-ICAO UAM Study,Ambular 2.0
-ICAO UAM Study,Uber Elevate
-ICAO UAM Study,Smart Cities
-ICAO UAM Study,Lilium
-EASA Innovation Hub,AI Roadmap
-EUROCONTROL,Fly AI Report
-EASA Innovation Hub,Lilium
-EASA Innovation Hub,Thales
-ICAO AI Research,UN Innovation Network
-ICAO UAM Study,eHANG
-ICAO Innovation Fair,eHANG
-ICAO Innovation Fair,Airbus
-ICAO Innovation Fair,BlockAero
-Imaginactive,SkiLifter
-Imaginactive,Alkanos
-Imaginactive,Bitzer
-Imaginactive,Electroship
-Imaginactive,Aerostratos
-Imaginactive,Ceros
-Imaginactive,Feuxzy
-Imaginactive,Kugaaruk
-Imaginactive,Templare
-Imaginactive,Ambular 2.0
-ICAO Innovation Fair,Imaginactive
-ICAO Innovation Fair,ICAO VR
-ICAO Innovation Fair,BeamMeUp
-BeamMeUp,ICAO VR
-ICAO Innovation,ICAO Innovation Fair
-ICAO Innovation,FabLabs
-ICAO Innovation,Innovation Policy
-Assmebly WP AI App,NLP
-Smart Cities,Tesla
-Smart Cities,Lilium
-Smart Cities,Ambular 2.0
-Smart Cities,ZipLine
-Smart Cities,Uber Elevate
-Smart Cities,eHANG
+from,to,fromID,toID
+ICAO Innovation Fair,CRIAQ,5,2
+ICAO Innovation Fair,LOON,5,3
+ICAO Innovation Fair,ZipLine,5,6
+ICAO Innovation Fair,Assmebly WP AI App,5,10
+ICAO Innovation Fair,Stratobus,5,12
+ICAO Innovation Fair,Uber Elevate,5,13
+Thales,Stratobus,19,12
+Thales,Thales AI Challenge,19,9
+ICAO Innovation Fair,Lilium,5,20
+ICAO AI Research,AI For Good Summit,22,7
+ICAO AI Research,AI Code of Conduct,22,8
+ICAO AI Research,Assmebly WP AI App,22,10
+ICAO AI Research,Thales AI Challenge,22,9
+ICAO AI Research,EASA Innovation Hub,22,16
+ICAO AI Research,EUROCONTROL,22,24
+ICAO AI Research,NLP,22,21
+ICAO AI Research,YOLO,22,14
+ICAO AI Research,Smart Cities,22,15
+ICAO UAM Study,Ambular 2.0,23,4
+ICAO UAM Study,Uber Elevate,23,13
+ICAO UAM Study,Smart Cities,23,15
+ICAO UAM Study,Lilium,23,20
+EASA Innovation Hub,AI Roadmap,16,17
+EUROCONTROL,Fly AI Report,24,18
+EASA Innovation Hub,Lilium,16,20
+EASA Innovation Hub,Thales,16,19
+ICAO AI Research,UN Innovation Network,22,1
+ICAO UAM Study,eHANG,23,25
+ICAO Innovation Fair,eHANG,5,25
+ICAO Innovation Fair,Airbus,5,26
+ICAO Innovation Fair,BlockAero,5,28
+Imaginactive,SkiLifter,29,30
+Imaginactive,Alkanos,29,31
+Imaginactive,Bitzer,29,32
+Imaginactive,Electroship,29,33
+Imaginactive,Aerostratos,29,34
+Imaginactive,Ceros,29,35
+Imaginactive,Feuxzy,29,36
+Imaginactive,Kugaaruk,29,37
+Imaginactive,Templare,29,38
+Imaginactive,Ambular 2.0,29,4
+ICAO Innovation Fair,Imaginactive,5,29
+ICAO Innovation Fair,ICAO VR,5,40
+ICAO Innovation Fair,BeamMeUp,5,39
+BeamMeUp,ICAO VR,39,40
+ICAO Innovation,ICAO Innovation Fair,42,5
+ICAO Innovation,FabLabs,42,41
+ICAO Innovation,Innovation Policy,42,43
+Assmebly WP AI App,NLP,10,21
+Smart Cities,Tesla,15,11
+Smart Cities,Lilium,15,20
+Smart Cities,Ambular 2.0,15,4
+Smart Cities,ZipLine,15,6
+Smart Cities,Uber Elevate,15,13
+Smart Cities,eHANG,15,25
+AI Node,Syntech ONE 200,56,44
+AI Node,Skywise,56,45
+AI Node,Jeppesen Crew Rostering,56,46
+AI Node,Watson at Work – Aviation,56,47
+AI Node,Delta AI-based predictive maintenance,56,48
+AI Node,Delta  biometric-based self-service bag drop,56,49
+AI Node,United – Alexa app,56,50
+AI Node,Airbus AI Gym,56,51
+AI Node,Airbus AI TakeOff,56,52
+AI Node,AI Landing,56,53
+AI Node,Thales AI ATM,56,54
+AI Node,Thales AI Butler,56,55
+AI Node,AI For Good Summit,56,7
+AI Node,AI Code of Conduct,56,8
+AI Node,Thales AI Challenge,56,9
+AI Node,Assmebly WP AI App,56,10
+AI Node,AI Roadmap,56,17
+AI Node,Fly AI Report,56,18
+AI Node,NLP,56,21
+ICAO AI Research,AI Node,22,56
+UA Node,DJI,103,57
+UA Node,Parrot,103,58
+UA Node,Yuneec,103,59
+UA Node,Kespry,103,60
+UA Node,Autel,103,61
+UA Node,Skydio,103,62
+UA Node,Insitu,103,63
+UA Node,Delair,103,64
+UA Node,EHANG-drone,103,65
+UA Node,senseFly,103,66
+UA Node,Aerialtronics,103,67
+UA Node,Freefly,103,68
+UA Node,Flyability,103,69
+UA Node,Draganfly,103,70
+UA Node,Action Drone,103,71
+UA Node,GoPro,103,72
+UA Node,Intel,103,73
+UA Node,Ambarella,103,74
+UA Node,FLIR,103,75
+UA Node,Workswell,103,76
+UA Node,UDI,103,77
+UA Node,Hubsan,103,78
+UA Node,Cheerson,103,79
+UA Node,Syma,103,80
+UA Node,Sky Viper,103,81
+UA Node,Blade,103,82
+UA Node,AguaDrone,103,83
+UA Node,Embention,103,84
+UA Node,Force1,103,85
+UA Node,Gryphon Dynamics,103,86
+UA Node,Gryphon Sensor,103,87
+UA Node,Fat Shartk,103,88
+UA Node,BFD System,103,89
+UA Node,Atlas Dynamics,103,90
+UA Node,SicDrone,103,91
+UA Node,TuffWing,103,92
+UA Node,Airspace,103,93
+UA Node,SkySpecs,103,94
+UA Node,Dedrone,103,95
+UA Node,Search Systems,103,96
+UA Node,Skyfish,103,97
+UA Node,Wingtra,103,98
+UA Node,Azur Drones,103,99
+UA Node,Planck Aerosystems,103,100
+UA Node,Impossible Aerospace,103,101
+UA Node,Parazero,103,102
+ICAO UA,UA Node,104,103
+ICAO,ICAO UA,105,104
+ICAO,ICAO Innovation Fair,105,5
+ICAO,ICAO AI Research,105,22
+ICAO,ICAO UAM Study,105,23
+ICAO,ICAO Innovation,105,42
+UA Node,Wing,103,106
+UAM Node,H-aero one,200,107
+UAM Node,Agras MJ1,200,108
+UAM Node,Blackfly V3,200,109
+UAM Node,Hoverbike S3,200,110
+UAM Node,Volocopter 2X,200,111
+UAM Node,Cora,200,112
+UAM Node,Transition,200,113
+UAM Node,Aeromobil 4.0,200,114
+UAM Node,Palv-V Liberty,200,115
+UAM Node,Lilium Jet,200,116
+UAM Node,Ehang 216,200,117
+Straospheric Node,Loon,204,118
+UAM Node,Makani,200,119
+UAM Node,Zipline drone,200,120
+UAM Node,The Skydio 2,200,121
+Traditional Node,A350 ,205,122
+Traditional Node,B787-8 Dreamliner ,205,123
+Traditional Node,Global 7500 ,205,124
+Traditional Node,Dassault Falcon 8x ,205,125
+Traditional Node,Phenom 300E ,205,126
+UAM Node,Opensky M-02,200,127
+UAM Node,Mark-1,200,128
+UAM Node,BIT,200,129
+UAM Node,LMV 496 - The Flying Motorbike,200,130
+UAM Node,Flyboard Air EXP,200,131
+UAM Node,JB-11,200,132
+UAM Node,Jetwing,200,133
+UAM Node,Malloy Hoverbike,200,134
+UAM Node,Hexa,200,135
+UAM Node,Flyer,200,136
+UAM Node,PAV,200,137
+UAM Node,Vahana,200,138
+Straospheric Node,Odysseus,204,139
+Straospheric Node,Stratobus,204,140
+Traditional Node,Trifan 600,205,141
+UAM Node,Airlander 10,200,142
+UA Node,Aerones drone,103,143
+UAM Node,Alice,200,144
+UAM Node,chAIR,200,145
+UAM Node,CityAirbus,200,146
+UA Node,VoloDrone,103,147
+UA Node,Parcelcopter 4.0,103,148
+UAM Node,Seraph,200,149
+UA Node,Droneseed,103,150
+UAM Node,The Y6S ,200,151
+UA Node,The Skygauge ,103,152
+UAM Node,S4,200,153
+Traditional Node,Jumper,205,154
+UAM Node,JetQuad,200,155
+UAM Node,Westpac,200,156
+UA Node,X5 ,103,157
+UAM Node,Electric Air Taxi,200,158
+UAM Node,Zephyr 7,200,159
+Traditional Node,Maveric,205,160
+UAM Node,E-Fan X,200,161
+UAM Node,BEHA M1H ,200,162
+UAM Node,Bell Nexus,200,163
+UA Node,Autonomous pod transport ,103,164
+UAM Node,BELL FCX-001 ,200,165
+UAM Node,The Red Hummingbird Hoverbike ,200,166
+UAM Node,Mobi-one ,200,167
+UAM Node,SkyDrive ,200,168
+UAM Node,VY400 ,200,169
+UAM Node,Aero-x,200,170
+UAM Node,Drone ,200,171
+UAM Node,Atlas,200,172
+UAM Node,Ruas-160,200,173
+Traditional Node,Starling Jet,205,174
+UAM Node,Pop.Up Next,200,175
+UAM Node,Aero,200,176
+Straospheric Node,AS2 Supersonic Business Jet ,204,177
+UAM Node,The flying car,200,178
+UAM Node,CityHawk ,200,179
+UAM Node,DR-7,200,180
+UAM Node,Drone Taxi R-1 ,200,181
+UAM Node,Onyx 2 ,200,182
+UAM Node,Prandltplane ,200,183
+UAM Node,S-512,200,184
+UAM Node,Uber Air and Skyport,200,185
+UAM Node,ZA10,200,186
+UAM Node,Overture,200,187
+UAM Node,X01,200,188
+UAM Node,MK4,200,189
+UAM Node,O-boot Cargo,200,190
+UAM Node,VTOL,200,191
+UAM Node,Voloport,200,192
+UAM Node,S-A1 Air Taxi ,200,193
+UAM Node,L400 UltraFAVORITE ,200,194
+UAM Node,Scylax E10,200,195
+UAM Node,Rotorcraft Terminal,200,196
+UAM Node,Two Seater Drone,200,197
+UAM Node,Autonomous Aerial Vehicle (AAV) e-port ,200,198
+UAM Node,TF-2,200,199
+UAM Node,Harbour Air ePlane,200,201
+Straospheric Node,Hawk Aerovironment,205,202
+UAM Node,HeathDrone,200,203
+ICAO,Traditional Node,105,205
+ICAO,Straospheric Node,105,204
+ICAO UA,UAM Node,104,200
+Uber Elevate,S4,185,153
+Uber Elevate,Bell Nexus,185,163
+Uber Elevate,PAV,185,137
