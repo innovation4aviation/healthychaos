@@ -1,38 +1,28 @@
 [
   {
     "id": "1",
-    "pic": "Pictures/dummy.jpg",
-    "web": "dummy"
+    "pic": "Pictures/UNIN.jpeg",
+    "web": "https://www.uninnovation.network/"
   },
   {
     "id": "2",
-    "pic": "Pictures/dummy.jpg",
-    "web": "dummy"
-  },
-  {
-    "id": "3",
-    "pic": "Pictures/dummy.jpg",
-    "web": "dummy"
+    "pic": "Pictures/CRIAQ.jpeg",
+    "web": "https://criaq.aero/en/"
   },
   {
     "id": "4",
     "pic": "Pictures/dummy.jpg",
-    "web": "dummy"
+    "web": "http://www.ambular.org"
   },
   {
     "id": "5",
-    "pic": "Pictures/dummy.jpg",
-    "web": "dummy"
-  },
-  {
-    "id": "6",
-    "pic": "Pictures/dummy.jpg",
-    "web": "dummy"
+    "pic": "Pictures/ICAOIF.jpeg",
+    "web": "https://www.icao.int/Meetings/innovation2019/Pages/default.aspx"
   },
   {
     "id": "7",
-    "pic": "Pictures/dummy.jpg",
-    "web": "dummy"
+    "pic": "Pictures/AI4GOOD.jpeg",
+    "web": "https://aiforgood.itu.int/"
   },
   {
     "id": "8",
@@ -56,11 +46,6 @@
   },
   {
     "id": "12",
-    "pic": "Pictures/dummy.jpg",
-    "web": "dummy"
-  },
-  {
-    "id": "13",
     "pic": "Pictures/dummy.jpg",
     "web": "dummy"
   },
@@ -116,11 +101,6 @@
   },
   {
     "id": "24",
-    "pic": "Pictures/dummy.jpg",
-    "web": "dummy"
-  },
-  {
-    "id": "25",
     "pic": "Pictures/dummy.jpg",
     "web": "dummy"
   },
@@ -521,8 +501,8 @@
   },
   {
     "id": "105",
-    "pic": "Pictures/dummy.jpg",
-    "web": "dummy"
+    "pic": "Pictures/ICAO.jpeg",
+    "web": "http://www.icao.int"
   },
   {
     "id": "106",
