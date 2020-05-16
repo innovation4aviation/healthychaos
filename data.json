@@ -128,12 +128,12 @@
     {
       "id": "30",
       "user": "Concepts",
-      "description": "SkiLifter"
+      "description": "Snowlifter"
     },
     {
       "id": "31",
       "user": "Concepts",
-      "description": "Alkanos"
+      "description": "Alkonos"
     },
     {
       "id": "32",
@@ -168,7 +168,7 @@
     {
       "id": "38",
       "user": "Concepts",
-      "description": "Templare"
+      "description": "Templar"
     },
     {
       "id": "39",
@@ -423,7 +423,7 @@
     {
       "id": "89",
       "user": "UAS",
-      "description": "BFD System"
+      "description": "BFD Systems"
     },
     {
       "id": "90",
@@ -553,7 +553,7 @@
     {
       "id": "115",
       "user": "UAM",
-      "description": "Palv-V Liberty"
+      "description": "Pal-V Liberty"
     },
     {
       "id": "116",
@@ -998,7 +998,7 @@
     {
       "id": "204",
       "user": "Node",
-      "description": "Straospheric Node"
+      "description": "Stratospheric Node"
     },
     {
       "id": "205",
