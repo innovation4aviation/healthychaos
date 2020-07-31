@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+      
+        <script src="https://unpkg.com/3d-force-graph"></script>
+        <script src="https://unpkg.com/three"></script>
+  
+        <script src="https://unpkg.com/three-spritetext"></script>
+
+        <style>
+            
+            
+
+            
+            .inner-box {
+                position: absolute;
+                right: 0px;
+                bottom: 0px;
+                height: 40%;
+                width: 25%;
+                text-align: center;
+                background: rgba(255, 255, 0, 0);
+                color: white;
+            }
+            
+            .thankyou-box {
+                position: absolute;
+                left: 0px;
+                bottom: 0px;
+                height: 10%;
+                width: 25%;
+                text-align: center;
+                background: rgba(255, 255, 0, 0);
+                color: white;
+            }
+            
+            
+            img {
+                opacity: 0.8;
+            }
+
+        </style>
+
+    </head>
+
+    <body onload="dothisfirst()">
+
+        <div id="3d-graph">
+
+        </div>
+         
+        
+<!--- deactivate the info box 
+        <div id="infobox" class="inner-box">
+                
+        </div>
+ --->       
+        <div id="thankyou" class="thankyou-box">
+            <!---
+            <h3>
+                
+                Thank you to https://github.com/vasturiano/3d-force-graph for the visual engine
+            </h3>
+            --->
+            <button id="rotationToggle">
+                Go To Next
+            </button>
+            <button id="realrotationToggle">
+                Rotate
+            </button>
+        </div>
+        
+          
+        <script type="module">
+            
+            import { UnrealBloomPass } from 'https://unpkg.com/three/examples/jsm/postprocessing/UnrealBloomPass.js';
+            
+            var jsonnode=[];
+            var jsncount=0;
+            
+            var sequence=[100, 99, 98, 54, 143, 99, 19, 180, 148, 199, 113, 135, 51, 46, 42, 41,51, 4, 100];
+            var sequencedist=[100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 1500];
+            var sequncecount= 0;
+            
+            var Graph;
+            
+            async function loadgraph(){
+
+            const GraphBig = ForceGraph3D()
+              (document.getElementById('3d-graph'))
+                .jsonUrl('https://innovation4aviation.github.io/healthychaos/dataCLEAN.json')
+                .nodeLabel(node => `${node.user}: ${node.description}`)
+                .nodeAutoColorBy('user')
+                .nodeThreeObject(node => {
+                    // use a sphere as a drag handle
+          
+                    const objj = new THREE.Mesh(
+                        new THREE.SphereGeometry(10),
+                        new THREE.MeshBasicMaterial({ depthWrite: false, transparent: true, opacity: 0 })
+                    );
+
+          
+                    // add text sprite as child
+          
+                    const sprite = new SpriteText(node.description);
+                    sprite.color = node.color;          
+                    sprite.textHeight = 10;
+                    objj.add(sprite);
+                    
+                    jsonnode[jsncount] =node;
+                    jsncount++;
+
+          
+                    return objj;
+        
+                })
+            
+                .onNodeClick(node => {
+                    //picutrelink(node.id);      
+                    // Aim at node from outside it  
+                    const distance = 50;          
+                    const distRatio = 1 + distance/Math.hypot(node.x, node.y, node.z);
+                    
+                    Graph.cameraPosition(
+                        { x: node.x * distRatio, y: node.y * distRatio, z: node.z * distRatio }, // new position
+                        node, // lookAt ({ x, y, z })
+                        3000  // ms transition duration          
+                    );
+                    
+                });
+                Graph = GraphBig;
+                
+                return;
+            }
+
+            
+            
+            async function nextfunc(){
+                
+                
+                Graph.d3Force('charge').strength(-240); // Spread nodes a little wider
+            
+                const bloomPass = new UnrealBloomPass();
+                bloomPass.strength = 1;
+                bloomPass.radius = 1;
+                bloomPass.threshold = 0.1;
+                Graph.postProcessingComposer().addPass(bloomPass);       
+                return;
+            }
+            
+            
+            async function startupseq(){
+                await loadgraph();
+                await nextfunc();
+            }
+    
+            startupseq();
+            
+            
+            document.getElementById('rotationToggle').addEventListener('click', event => {
+                
+
+                //var nodenum =  document.getElementById("txt").value;
+                
+                var nodenum = sequence[sequncecount];
+                var maxindex = sequence.length-2;
+                
+                
+
+                var nodeZero=jsonnode[nodenum];
+                
+                var distance = sequencedist[sequncecount]; 
+                
+                
+                
+                
+                var distRatio = 1 + distance/Math.hypot(nodeZero.x, nodeZero.y, nodeZero.z);
+            
+                //picutrelink(nodeZero.id);
+                
+                Graph.cameraPosition(
+                        
+                    { x: nodeZero.x * distRatio, y: nodeZero.y * distRatio, z: nodeZero.z * distRatio }, // new position
+                        
+                    nodeZero, // lookAt ({ x, y, z })
+                        
+                    3000  // ms transition duration          
+                    
+                );
+                
+                if (sequncecount > maxindex) {
+                    sequncecount = 0;
+                } else {
+                    sequncecount=sequncecount+1;
+                }
+            
+            });
+            
+            let isRotationActive = false;
+            
+    
+            const distancer = 1500;
+            let angle = 0;
+            
+            document.getElementById('realrotationToggle').addEventListener('click', event => {
+                isRotationActive = !isRotationActive;
+                setInterval(() => {
+                  if (isRotationActive) {
+                    Graph.cameraPosition({
+                      x: distancer * Math.sin(angle),
+                      z: distancer * Math.cos(angle)
+                    });
+                    angle += Math.PI / 300;
+                  }
+                }, 10);
+            });
+            
+        </script>
+        
+
+        <script>
+            
+            
+        
+        const ul = document.getElementById('infobox');
+          
+        const url = 'https://innovation4aviation.github.io/healthychaos/datalink.json';
+        
+        var obj;
+        
+        function dothisfirst(){
+            fetch(url)
+            .then((resp) => resp.json())
+            .then(data => obj = data)
+            .then(function(data) {
+                ///ul.innerHTML += JSON.stringify(obj);
+            jdata=data;
+                })
+            .catch(function(error) {
+                console.log(JSON.stringify(error));
+                });
+        }
+        
+        function dothisonclick(){
+            ul.innerHTML += obj[1].id;            
+        }
+        
+        function picutrelink(indent){
+            // iterate over each element in the array
+            for (var i = 0; i < obj.length; i++){
+                // look for the entry with a matching `code` value
+                if (obj[i].id == indent){
+                    
+                    htmltext = '<br><a href="'+obj[i].web +'" target="_blank"> <img src="' + obj[i].pic+'" style="width:100%;"> </a>';
+                    ul.innerHTML = htmltext;
+                    
+
+                }
+            }
+        }
+        
+        function ShowICAO(jsn){
+            var x = document.getElementById("b1").value;
+            ul.innerHTML = jsn;   
+        }
+        
+        </script>
+
+    </body>
+    
+</html> 
