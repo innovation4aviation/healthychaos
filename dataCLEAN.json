@@ -807,19 +807,11 @@
     },
     {
       "source": "5",
-      "target": "120"
-    },
-    {
-      "source": "5",
       "target": "10"
     },
     {
       "source": "5",
       "target": "12"
-    },
-    {
-      "source": "5",
-      "target": "185"
     },
     {
       "source": "19",
@@ -875,10 +867,6 @@
     },
     {
       "source": "23",
-      "target": "185"
-    },
-    {
-      "source": "23",
       "target": "15"
     },
     {
@@ -904,14 +892,6 @@
     {
       "source": "22",
       "target": "1"
-    },
-    {
-      "source": "23",
-      "target": "117"
-    },
-    {
-      "source": "5",
-      "target": "117"
     },
     {
       "source": "5",
