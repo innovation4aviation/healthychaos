@@ -89,13 +89,18 @@
             var Graph;
             
             async function loadgraph(){
+                
+                    const highlightNodes = new Set();
+                    const highlightLinks = new Set();
+                    let hoverNode = null;
 
             const GraphBig = ForceGraph3D()
               (document.getElementById('3d-graph'))
-                .jsonUrl('https://innovation4aviation.github.io/healthychaos/dataCLEAN.json')
+                .jsonUrl('https://innovation4aviation.github.io/healthychaos/data.json')
                 .nodeLabel(node => `${node.user}: ${node.description}`)
                 .nodeAutoColorBy('user')
-                .linkWidth(2)
+                .linkWidth(0)
+                .linkDirectionalParticles(2)
                 .nodeThreeObject(node => {
                     // use a sphere as a drag handle
           
@@ -109,7 +114,7 @@
           
                     const sprite = new SpriteText(node.description);
                     sprite.color = node.color;          
-                    sprite.textHeight = 12;
+                    sprite.textHeight = 10;
                     objj.add(sprite);
                     
                     jsonnode[jsncount] =node;
@@ -131,6 +136,15 @@
                         node, // lookAt ({ x, y, z })
                         3000  // ms transition duration          
                     );
+                    
+                    if ((!node && !highlightNodes.size) || (node && hoverNode === node)){
+                        //nothing to do
+                    } else {
+                        
+                    
+                    }
+
+                    
                     
                 });
                 Graph = GraphBig;
