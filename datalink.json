@@ -1373,5 +1373,100 @@
     "id": "279",
     "pic": "Pictures/ICAO.jpeg",
     "web": "dummy"
+  },
+  {
+    "id": "280",
+    "pic": "Pictures/NUCTECH.png",
+    "web": "http://www.nuctech.com/EN/SitePages/HomePage.aspx"
+  },
+  {
+    "id": "281",
+    "pic": "Pictures/EMPIC.jpg",
+    "web": "https://www.empic.aero/"
+  },
+  {
+    "id": "282",
+    "pic": "Pictures/ESRI.jpg",
+    "web": "https://www.esri.com/en-us/home"
+  },
+  {
+    "id": "283",
+    "pic": "Pictures/AENA.jpg",
+    "web": "http://www.aena.es/en/passengers/passengers.html"
+  },
+  {
+    "id": "284",
+    "pic": "Pictures/ACI.png",
+    "web": "https://aci.aero/"
+  },
+  {
+    "id": "285",
+    "pic": "Pictures/IATA.png",
+    "web": "https://www.iata.org/"
+  },
+  {
+    "id": "286",
+    "pic": "Pictures/GIFAS.png",
+    "web": "https://www.gifas.fr/"
+  },
+  {
+    "id": "287",
+    "pic": "Pictures/ATR.jpg",
+    "web": "http://www.atraircraft.com/"
+  },
+  {
+    "id": "288",
+    "pic": "Pictures/unifly-logo.svg",
+    "web": "https://www.unifly.aero/"
+  },
+  {
+    "id": "289",
+    "pic": "Pictures/Inchon.jpg",
+    "web": "https://www.airport.kr/ap/en/index.do"
+  },
+  {
+    "id": "290",
+    "pic": "Pictures/memotec.jpg",
+    "web": "http://memotec.com/"
+  },
+  {
+    "id": "291",
+    "pic": "Pictures/share-img.jpg",
+    "web": "https://searidgetech.com/"
+  },
+  {
+    "id": "292",
+    "pic": "Pictures/Barrett_Tactical_Communications_Logo_640.jpg",
+    "web": "https://www.barrettcommunications.com.au/"
+  },
+  {
+    "id": "293",
+    "pic": "Pictures/speechtech.com.png",
+    "web": "http://www.speechtech.com/"
+  },
+  {
+    "id": "294",
+    "pic": "Pictures/Aernav.jpg",
+    "web": "https://www.aeronavgroup.com/"
+  },
+  {
+    "id": "295",
+    "pic": "Pictures/SOLACE.jpeg",
+    "web": "https://solace.com/"
+  },
+  {
+    "id": "296",
+    "pic": "Pictures/SEABURY.png",
+    "web": "http://www.seaburysolutions.com/en/home/"
+  },
+  {
+    "id": "297",
+    "pic": "Pictures/neste_totem.jpg",
+    "web": "https://www.neste.us/"
+  },
+  {
+    "id": "298",
+    "pic": "Pictures/ICAO.jpeg",
+    "web": "https://www.icao.int/environmental-protection/pages/SAF.aspx"
   }
 ]
