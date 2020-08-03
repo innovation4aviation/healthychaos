@@ -772,7 +772,7 @@
     },
     {
       "id": "159",
-      "user": "UAM",
+      "user": "Stratospheric",
       "description": "Zephyr 7"
     },
     {
@@ -1469,6 +1469,41 @@
       "id": "298",
       "user": "SAF",
       "description": "SAF Node"
+    },
+    {
+      "id": "299",
+      "user": "Enabler",
+      "description": "Internet Access"
+    },
+    {
+      "id": "300",
+      "user": "Benefit",
+      "description": "Remote Learning"
+    },
+    {
+      "id": "301",
+      "user": "Benefit",
+      "description": "Remote Health"
+    },
+    {
+      "id": "302",
+      "user": "Benefit",
+      "description": "Access to Markets"
+    },
+    {
+      "id": "303",
+      "user": "SDG",
+      "description": "SDG 3 \u2013 Health"
+    },
+    {
+      "id": "304",
+      "user": "SDG",
+      "description": "SDG 4 \u2013 Education"
+    },
+    {
+      "id": "305",
+      "user": "SDG",
+      "description": "SDG 9 \u2013 Infrastructure"
     }
   ],
   "links": [
@@ -2181,7 +2216,7 @@
       "target": "158"
     },
     {
-      "source": "200",
+      "source": "204",
       "target": "159"
     },
     {
@@ -3171,6 +3206,42 @@
     {
       "source": "105",
       "target": "298"
+    },
+    {
+      "source": "12",
+      "target": "299"
+    },
+    {
+      "source": "118",
+      "target": "299"
+    },
+    {
+      "source": "159",
+      "target": "299"
+    },
+    {
+      "source": "299",
+      "target": "300"
+    },
+    {
+      "source": "299",
+      "target": "301"
+    },
+    {
+      "source": "299",
+      "target": "302"
+    },
+    {
+      "source": "300",
+      "target": "303"
+    },
+    {
+      "source": "301",
+      "target": "304"
+    },
+    {
+      "source": "302",
+      "target": "305"
     }
   ]
 }
