@@ -66,12 +66,12 @@
   },
   {
     "id": "17",
-    "pic": "Pictures/AI.jpg",
+    "pic": "Pictures/EASA.png",
     "web": "https://www.easa.europa.eu/newsroom-and-events/news/easa-artificial-intelligence-roadmap-10-published"
   },
   {
     "id": "18",
-    "pic": "Pictures/AI.jpg",
+    "pic": "Pictures/EUROCONTROL.svg",
     "web": "https://www.eurocontrol.int/publication/fly-ai-report"
   },
   {
@@ -101,7 +101,7 @@
   },
   {
     "id": "24",
-    "pic": "Pictures/dummy.jpg",
+    "pic": "Pictures/EUROCONTROL.svg",
     "web": "https://www.eurocontrol.int/"
   },
   {
