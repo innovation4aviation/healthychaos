@@ -1,0 +1,171 @@
+{
+  "nodes": [
+        {
+      "id": "307",
+      "user": "Event",
+      "description": "Innovation Symposium 2020",
+      "picture" : "",
+      "link" : "https://www.icao.int/Meetings/InnovationSymposium2020/Pages/default.aspx"
+    },
+    {
+      "id": "500",
+      "user": "Event",
+      "description": "Opening Session",
+      "picture" : "",
+      "link" : "https://www.icao.tv/global-symposium-on-the-implementation-of-innovation-in-aviation/season:1/videos/opening-montreal"
+    },
+    {
+      "id": "501",
+      "user": "Event",
+      "description": "Passenger Differentiation",
+      "picture" : "",
+      "link" : ""
+    },
+    {
+      "id": "503",
+      "user": "Event",
+      "description": "Green Innovation",
+      "picture" : "",
+      "link" : ""
+    },
+    {
+      "id": "504",
+      "user": "Event",
+      "description": "Training",
+      "picture" : "",
+      "link" : ""
+    },
+    {
+      "id": "505",
+      "user": "Event",
+      "description": "Ecconomic Aspects of Innovaiton",
+      "picture" : "",
+      "link" : ""
+    },
+    {
+      "id": "506",
+      "user": "Event",
+      "description": "AI in Innovation",
+      "picture" : "",
+      "link" : ""
+    },
+    {
+      "id": "507",
+      "user": "Event",
+      "description": "COVID 1",
+      "picture" : "",
+      "link" : ""
+    },
+    {
+      "id": "508",
+      "user": "Event",
+      "description": "COVID 2",
+      "picture" : "",
+      "link" : ""
+    },
+    {
+      "id": "509",
+      "user": "Event",
+      "description": "Higher Airspace Operations",
+      "picture" : "",
+      "link" : ""
+    },
+    {
+      "id": "510",
+      "user": "Event",
+      "description": "Planning for Innovation",
+      "picture" : "",
+      "link" : ""
+    },
+    {
+      "id": "511",
+      "user": "Event",
+      "description": "Regional Panels on Digitization",
+      "picture" : "",
+      "link" : ""
+    },
+    {
+      "id": "512",
+      "user": "Event",
+      "description": "Regional Panels on Innovation",
+      "picture" : "",
+      "link" : ""
+    },
+    {
+      "id": "513",
+      "user": "Event",
+      "description": "Closing High Level Discussions",
+      "picture" : "",
+      "link" : ""
+    },
+    {
+      "id": "514",
+      "user": "Event",
+      "description": "iPACKS",
+      "picture" : "",
+      "link" : ""
+    }
+  ],
+  "links": [
+    {
+      "source": "307",
+      "target": "500"
+    },
+    {
+      "source": "307",
+      "target": "501"
+    },
+    {
+      "source": "307",
+      "target": "502"
+    },
+    {
+      "source": "307",
+      "target": "503"
+    },
+    {
+      "source": "307",
+      "target": "504"
+    },
+    {
+      "source": "307",
+      "target": "505"
+    },
+    {
+      "source": "307",
+      "target": "506"
+    },
+    {
+      "source": "307",
+      "target": "507"
+    },
+    {
+      "source": "307",
+      "target": "508"
+    },
+    {
+      "source": "307",
+      "target": "509"
+    },
+    {
+      "source": "307",
+      "target": "510"
+    },
+    {
+      "source": "307",
+      "target": "511"
+    },
+    {
+      "source": "307",
+      "target": "512"
+    },
+    {
+      "source": "307",
+      "target": "513"
+    },
+    {
+      "source": "307",
+      "target": "514"
+    }
+  ]
+}
